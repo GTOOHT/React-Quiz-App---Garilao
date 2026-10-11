@@ -1,0 +1,37 @@
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #1e293b;
+  background: #f8fafc;
+}
+
+button,
+input {
+  font: inherit;
+}
+
+@media (max-width: 600px) {
+  .home-card,
+  .question-card,
+  .result-card {
+    padding: 22px;
+  }
+
+  .home-card h1 {
+    font-size: 28px;
+  }
+
+  .quiz-header {
+    gap: 10px;
+  }
+
+  .quiz-header h1 {
+    font-size: 23px;
+  }
+
+  .quiz-navigation .primary-button,
+  .quiz-navigation .secondary-button {
+    padding: 12px;
+  }
+}
